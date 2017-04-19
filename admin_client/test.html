@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <mod1></mod1>
+  <mod2></mod2>
+</div>
+  <script>
+    new Vue({
+      el : '#app',
+      components: {
+        mod1: {
+          template: '<div>mod1</div>',
+        },
+        mod2 : {
+          template: '<div>mod2</div>'
+        }
+      }
+    })
+  </script>
+</body>
+</html>
